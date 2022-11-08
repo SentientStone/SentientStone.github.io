@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="shortcut icon" href="../icons/favicon.ico" />
+<title>Wu Wei World | In between the dialectic...</title>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-155994418-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-155994418-1');
+</script>
+<!-- TemplateBeginEditable name="head" -->
+<!-- Begin JavaScript -->
+
+<!-- End JavaScript -->
+<!-- TemplateEndEditable -->
+<link href="../css/reset.css" rel="stylesheet" type="text/css" />
+<link href="../css/main.css" rel="stylesheet" type="text/css" />
+<link href="../css/mobile.css" rel="stylesheet" type="text/css" />
+</head>
+<body id="main">
+	<a href="https://www.instagram.com/wuweiworld/" target="_blank" alt="@wuweiworld">
+		<div id="header">
+			<ul id="top-banner">
+				<li id="logo"></li>
+				<li id="title-container">
+					<p class="header-title">Wu Wei World</p>
+					<p class="header-subtitle">In between the dialectic...</p>
+				</li>
+			</ul>
+		</div>
+	</a>
+	<div id="slideshow-container">
+	<!-- TemplateBeginEditable name="slideshow" -->
+		<div id="slides">
+			<img src="../images/world-01.jpg" id="f1" class="fadein" alt="The Aura"/>
+			<img src="../images/world-02.jpg" id="f2" class="fadein" alt="The Aura"/>
+			<img src="../images/world-03.jpg" id="f3" class="fadein" alt="The Aura"/>
+			<img src="../images/world-04.jpg" id="f4" class="fadein" alt="The Aura"/>
+		</div>
+		<a href="#">
+			<div id="whoami">
+				<h1>"What is the Truth?"</h1>
+			</div>
+		</a>
+	<!-- TemplateEndEditable -->
+	</div>
+	<div id="content">
+	<!-- TemplateBeginEditable name="content" -->
+		<p>A timeless question that is perhaps more appropriate than ever before in the contemporary era of transition and uncertainty. In light of the current zeitgeist, it can certainly feel as though one is living on a teeter-totter between perceived dualisms in the form of fixed categorizations such as “capitalism” and “socialism”, “autocracy” and “democracy”,” global” and “local”, “us” and “them”, “you” and “I”. </p>
+		<p>History has shown that the human species has the capacity for both great unity and great division, yet paradoxically one end of a pair of binary opposites has the tendency to become the other when taken to the extreme. The order and chaos of the stories in one’s mind manifests itself in the external world and vice-versa. </p>
+		<p>Wu wei world (#wuweiworld) is an effort to do a small part in expanding our collective consciousness by promoting a holistic perspective which simultaneously encompasses and goes beyond identity narratives—a counterbalance in an era of increased polarization. Let us bring into awareness the moment-to-moment harmony that is the interplay between the elements. Let’s remind ourselves that we are simultaneously the individual and the collective. “I” am the container, the water, and the Universe encompassing it all.</p>
+	<!-- TemplateEndEditable -->
+	</div>
+	<div id="footer">
+		<div id="footer-info">
+			<ul id="social-icons">
+				<a href="https://www.instagram.com/wuweiworld/" target="_blank" alt="instagram">
+					<li class="icon-instagram"></li>
+				</a>
+				<a href="mailto:admin@wuweiworld.com" alt="admin@wuweiworld.com">
+					<li class="icon-mail"></li>
+				</a>
+			</ul>
+			<p class="credits"><span class="small">&copy;</span> 2020-2021 Wu Wei World Inc.</p>
+		</div>
+	</div>
+</body>
+</html>
+
+
+
+
