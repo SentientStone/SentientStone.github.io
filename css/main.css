@@ -12,18 +12,18 @@ html {
   font-size: 1rem;
 }
 
-@font-face{  
-   font-family: Candarab;  
-   src: url('../fonts/candarab.eot'); /* For IE */ 
-   src: local('candarab'), url('../fonts/candarab.ttf') format('truetype'); /* For non-IE */ 
-}  
+@font-face{
+   font-family: Candarab;
+   src: url('../fonts/candarab.eot'); /* For IE */
+   src: local('candarab'), url('../fonts/candarab.ttf') format('truetype'); /* For non-IE */
+}
 
 body {
 	margin: 0 0 0 0;
 	padding: 0 0 0 0;
 	font-size: 1rem;
 	height: 100%;
-	widows: 100%;
+	width: 100%;
 	background: #000000;
 	font-family: Candarab;
 	/*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; */
@@ -64,7 +64,7 @@ div#header {
 	overflow: hidden;
 	height: 5rem;
 	background-color: #000000;
-	color: #a8cde9; 
+	color: #a8cde9;
 	width: 100%;
 	display: block;
 	z-index: 9000;
@@ -97,7 +97,7 @@ div#header:hover {
 
 div#header:active {
 	background-color: #000000;
-	color: #a8cde9; 
+	color: #a8cde9;
 }
 
 
@@ -137,7 +137,7 @@ div#slideshow-container {
 
 
 div#whoami {
-	margin-left: -125px; 
+	margin-left: -125px;
 	width:250px;
 	z-index: 5000;
 	background-color: #000000;
@@ -278,7 +278,7 @@ div#footer {
 	height: 8%;
 	width: 100%;
 	background: #000;
-	color: #a8cde9; 
+	color: #a8cde9;
 	padding: .5rem 0 0 0;
 	margin: 0;
 	min-width: 200px;
@@ -305,7 +305,7 @@ div#footer a:link, div#footer a:visited, div#footer a:hover, div#footer a:active
 	text-decoration: none;
 }
 
-span.small {	
+span.small {
 	font-size: .8rem;
 }
 
@@ -315,33 +315,41 @@ div#footer ul#social-icons li {
 	display: inline-block;
 }
 
-div#footer ul#social-icons li.icon-mail {
+/* The icon classes now sit on the links inside each <li>.
+   The selectors below also match the old markup (class on the <li>),
+   so pages not yet updated keep their icons. */
+div#footer ul#social-icons li a {
+	display: block;
+	width: 100%;
+}
+
+div#footer ul#social-icons .icon-mail {
 	content: url(../icons/icon-mail.svg);
 }
 
-div#footer ul#social-icons li.icon-mail:hover{
+div#footer ul#social-icons .icon-mail:hover{
 	content: url(../icons/icon-mail-hover.svg);
 }
 
-div#footer ul#social-icons li.icon-mail:active {
-	content: url(../icons/icon-mail.svg);	
+div#footer ul#social-icons .icon-mail:active {
+	content: url(../icons/icon-mail.svg);
 }
 
-div#footer ul#social-icons li.icon-instagram {
+div#footer ul#social-icons .icon-instagram {
 	content: url(../icons/icon-ins.svg);
 }
 
-div#footer ul#social-icons li.icon-instagram:hover {
+div#footer ul#social-icons .icon-instagram:hover {
 	content: url(../icons/icon-ins-hover.svg);
 }
 
-div#footer ul#social-icons li.icon-instagram:active {
+div#footer ul#social-icons .icon-instagram:active {
 	content: url(../icons/icon-ins.svg);
 }
 
 
 span.highlight {
-	color: #a8cde9; 
+	color: #a8cde9;
 }
 
 span.big-highlight {
